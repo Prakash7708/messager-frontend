@@ -11,7 +11,7 @@ function Chat() {
     const [users, setUsers] = useState([]);
     const [message, setMessage] = useState("");
     const [messages, setMessages] = useState([]);
-    const socketUrl = 'http://localhost:3001'
+    const socketUrl = 'https://messager-server.herokuapp.com/'
 
     useEffect(() => {
         const search = window.location.search;
