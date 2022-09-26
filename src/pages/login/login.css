@@ -1,0 +1,31 @@
+.body{
+  background-color: rgb(67, 182, 57);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.login{
+  background-color: rgb(252, 252, 252);
+  display: grid;
+  place-content: center;
+  height: 600px;
+  width: 600px;
+  border-radius: 20px;
+}
+.login h3{
+  margin-left: 190px;
+}
+
+.loginimg{
+  margin-left: 210px;
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+.container1{
+  /* background-color: rgb(190, 190, 190); */
+  width: 500px;
+}

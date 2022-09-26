@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+.left{
+  background-color: rgb(93, 190, 84);
+  height: 100vh;
+  
+}
+.left input{
+  width: 440px;
+  margin-left: 5px;
+  margin-top: 5px;
+  
+}
+.right{
+  background-color: rgb(141, 199, 136);
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.admin{
+  background-color: rgb(30, 173, 16);
+  height: 70px;
   display: flex;
-  flex-direction: column;
+  width: 450px;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+}
+.admin h4{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(73, 122, 79);
+}
+.msgicon{
+  
+  border: 2px solid green;
+ border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.user{
+  background-color: rgb(141, 199, 136);
+  height: 60px;
+  display: flex;
+  width: 445px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  text-transform: capitalize;
+  color: rgb(34, 99, 14);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userimg{
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(226, 231, 226);
+  border-radius: 50%;
+}
+.homeimg{
+  height:50px;
+  width: 50px;
+  background-color: rgb(157, 212, 165);
+  border-radius: 50%;
+}
+.rightnav{
+  background-color: rgb(56, 153, 56);
+  height: 50px;
+  width: 920px;
+  margin-left: -11px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+.rightnav h6{
+  text-transform: capitalize;
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+.rightnav b{
+  text-transform: capitalize;
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+.msgdiv{
+ background-color: rgb(141, 199, 136);
+ height: 505px;
+ margin-left: -11px;
+ overflow-x: hidden;
+ overflow-y: scroll;
+ 
+}
+.rightdown{
+ background-color: rgb(17, 167, 17);
+ height: 60px;
+ margin-left: -11px;
+ display: flex;
+ align-items: center;
+}
+
+.msgdiv p{
+  color: rgb(11, 82, 9);
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.h6{
+  text-align: end;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.back{
+  background-color: rgb(230, 230, 235);
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+}
+.searchdown{
+  width: 850px;
+  margin-left: 10px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+}
+.time{
+  
+  font-size: small;
 }
